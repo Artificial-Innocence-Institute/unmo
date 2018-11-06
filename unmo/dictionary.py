@@ -30,7 +30,7 @@ class Dictionary:
     markov -- マルコフ辞書
     """
 
-    DICT_DIR = os.path.join(str(Path.home()), '.unmo', 'dics')
+    DICT_DIR = os.path.join('..', 'unmo-dictionary', 'dics')
     DICT = {
         'random': 'random.txt',
         'pattern': 'pattern.txt',
